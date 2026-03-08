@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Axzy Bot Lab</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=JetBrains+Mono&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
+</head>
+
+<body>
+
+<div id="particles-js"></div>
+
+<header class="hero">
+
+<h1 class="logo">AXZY</h1>
+
+<p class="tagline">Bot Developer • Automation Creator</p>
+
+</header>
+
+
+<section class="bots">
+
+<h2>My Creations</h2>
+
+<div class="bot-grid">
+
+<div class="bot-card">
+<h3>Pepe</h3>
+<p>Instagram bot with commands, AI replies and games.</p>
+</div>
+
+<div class="bot-card">
+<h3>Mai-san</h3>
+<p>WhatsApp automation and chat interaction bot.</p>
+</div>
+
+<div class="bot-card">
+<h3>Ruru</h3>
+<p>Telegram bot focused on utilities and fun commands.</p>
+</div>
+
+<div class="bot-card">
+<h3>Mr Docklemnie</h3>
+<p>Discord bot with automation and moderation tools.</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- MUSIC PLAYER -->
+
+<div class="music-player">
+
+<div class="player-left">
+
+<img id="cover">
+
+</div>
+
+<div class="player-center">
+
+<div id="songTitle">Loading...</div>
+
+<canvas id="visualizer"></canvas>
+
+<div class="controls">
+
+<button onclick="prevSong()">⏮</button>
+<button onclick="playSong()">▶</button>
+<button onclick="pauseSong()">⏸</button>
+<button onclick="nextSong()">⏭</button>
+
+</div>
+
+</div>
+
+<div class="lyrics" id="lyricsBox">
+
+Lyrics loading...
+
+</div>
+
+</div>
+
+
+
+<!-- BOT MASCOTS -->
+
+<img src="mascots/pepe.gif" class="bot-mascot" id="pepe">
+<img src="mascots/axzy.gif" class="bot-mascot" id="axzy">
+
+
+<footer>
+
+Built by Axzy
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

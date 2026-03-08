@@ -1,0 +1,14 @@
+[
+  {
+    "title": "505",
+    "file": "songs/505.mp3",
+    "cover": "songs/505.jpg",
+    "lyrics": "songs/505.txt"
+  },
+  {
+    "title": "Honeypie",
+    "file": "songs/honeypie.mp3",
+    "cover": "songs/honeypie.jpg",
+    "lyrics": "songs/honeypie.txt"
+  }
+]
